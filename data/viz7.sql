@@ -8,6 +8,7 @@ SELECT * FROM Sales.Store
 
 SELECT
     st.Name AS Region,
+    st.[Group] AS RegionGroup,
     CASE 
         WHEN c.StoreID IS NOT NULL THEN 'Store'
         WHEN c.PersonID IS NOT NULL THEN 'Individual'
@@ -22,6 +23,6 @@ GROUP BY st.Name,
          CASE 
              WHEN c.StoreID IS NOT NULL THEN 'Store'
              WHEN c.PersonID IS NOT NULL THEN 'Individual'
-         END
+         END, st.[Group]
 ORDER BY AVG(soh.TotalDue) DESC;
 
