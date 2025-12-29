@@ -10,3 +10,11 @@ The report notebooks begins with importing the necessary libraries and connectin
 dataframe that will be used in making different visualisations using searborn. 
 
 For each visualisation, I begin with the main goal, followed by the specific question i wish to answer, the tables used and lastly the a brief description of the resulting figure. 
+
+# Directives 
+Clone the repository and change the path for the dataset accordingly
+clone: git clone [https://github.com/CheHenryy/health_project.git](https://github.com/CheHenryy/Analysis-of-health-indicators.git)
+
+install required packages: pip install -r requirements.txt
+
+click run all 
