@@ -13,7 +13,9 @@ For each visualisation, I begin with the main goal, followed by the specific que
 
 # Directives 
 Clone the repository and change the path for the dataset accordingly
-clone: git clone [https://github.com/CheHenryy/health_project.git](https://github.com/CheHenryy/Analysis-of-health-indicators.git)
+clone: git clone https://github.com/CheHenryy/Customer-sales-Analysis.git
+
+Ensure that setup section is updated and running and that you are successfully connected to the SQL Server.
 
 install required packages: pip install -r requirements.txt
 
